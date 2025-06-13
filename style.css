@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #92ba92;
+}
+body .heading {
+  margin-top: 10vh;
+}
+body .box {
+  height: 33vh;
+  width: 70vh;
+  background-color: #f1ddbf;
+  padding: 3vh;
+  border-radius: 5px;
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+body .box .container {
+  background-color: #78938a;
+  margin-bottom: 3vh;
+  padding: 2vh;
+  border-radius: 3px;
+  border: solid black;
+  font-weight: bold;
+  flex: 1;
+  position: absolute;
+  left: 3vh;
+  right: 3vh;
+  top: 3vh;
+}
+body .box .container .ele {
+  display: flex;
+}
+body .box .text-input {
+  display: flex;
+  flex: 1;
+  position: absolute;
+  top: 22vh;
+  left: 3vh;
+  right: 3vh;
+}
+body .box .text-input .input {
+  flex: 1;
+  padding: 1vh;
+  background-color: #78938a;
+  border-radius: 3px;
+  border: solid black;
+  color: black;
+}
+body .box .text-input .input::-moz-placeholder {
+  color: black;
+}
+body .box .text-input .input::placeholder {
+  color: black;
+}
+body .box .submit {
+  margin-top: 3vh;
+  padding: 1.5vh;
+  max-width: 200px;
+  position: absolute;
+  bottom: 3vh;
+  top: 26vh;
+  border-radius: 7px;
+  border: solid black;
+  font-weight: bold;
+  background-color: #525e75;
+  cursor: pointer;
+  padding-left: 4vh;
+  padding-right: 4vh;
+}
+body .box .submit:hover {
+  background-color: #92ba92;
+}
+body .box .submit:active {
+  background-color: #525e75;
+}/*# sourceMappingURL=style.css.map */
